@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_boundary_behaviour": "Monitor",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 0,
+  "default_container_padding": 6,
+  "border": true,
+  "border_width": 8,
+  "border_offset": -1,
+  "border_style": "System",
+  "theme": {
+    "palette": "Base16",
+    "name": "GruvboxDarkMedium",
+    "unfocused_border": "Base03",
+    "single_border": "Base0D",
+    "floating_border": "Base09",
+    "monocle_border": "Base0F",
+    "bar_accent": "Base0A"
+  },
+  "global_work_area_offset": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0
+  },
+  "floating_applications": [
+    {
+      "kind": "Exe",
+      "id": "Flow.Launcher.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+  "ignore_rules": [
+    {
+      "kind": "Exe",
+      "id": "StartMenuExperienceHost.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "SearchHost.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "ShellExperienceHost.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "OmarchyBar.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "ScreenClippingHost.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "SnippingTool.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "ScreenSketch.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+  "monitors": [
+    {
+      "work_area_offset": { "left": 0, "top": 34, "right": 0, "bottom": 34 },
+      "workspaces": []
+    },
+    {
+      "work_area_offset": { "left": 0, "top": 0, "right": 0, "bottom": 0 },
+      "workspaces": []
+    }
+  ]
+}

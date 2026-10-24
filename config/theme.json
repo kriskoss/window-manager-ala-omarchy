@@ -1,0 +1,10 @@
+{
+  "background": "#1d2021",
+  "foreground": "#ebdbb2",
+  "accent": "#fabd2f",
+  "urgent": "#fb4934",
+  "muted": "#928374",
+  "barHeight": 34,
+  "fontFamily": "Segoe UI Variable",
+  "fontSize": 13
+}

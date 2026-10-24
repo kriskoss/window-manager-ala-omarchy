@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "bar": {
+    "position": "top",
+    "height": 34,
+    "transparent": true,
+    "visible": true,
+    "centerAnchor": "omarchy.clock",
+    "layout": {
+      "left": [
+        { "id": "omarchy.power" },
+        { "id": "omarchy.menu" },
+        { "id": "omarchy.workspaces" },
+        { "id": "omarchy.window-title" }
+      ],
+      "center": [
+        { "id": "omarchy.clock", "format": "HH:mm" }
+      ],
+      "right": [
+        { "id": "omarchy.cpu" },
+        { "id": "omarchy.memory" },
+        { "id": "omarchy.audio" },
+        { "id": "omarchy.network" },
+        { "id": "omarchy.battery" }
+      ]
+    }
+  }
+}
